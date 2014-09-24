@@ -127,6 +127,11 @@
                                 <goals>
                                     <goal>delombok</goal>
                                 </goals>
+                                <configuration>
+                                    <formatPreferences>
+                                        <javaLangAsFQN>skip</javaLangAsFQN>
+                                    </formatPreferences>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
